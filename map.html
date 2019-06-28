@@ -1,0 +1,2171 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_14131a6b56a9468e81fa9d4922fae9ea {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_14131a6b56a9468e81fa9d4922fae9ea" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_14131a6b56a9468e81fa9d4922fae9ea = L.map(
+        'map_14131a6b56a9468e81fa9d4922fae9ea', {
+        center: [28.217917, 112.991041],
+        zoom: 11,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_7595b53404f244aa8bc7bf5771ec1c73 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+    
+        var marker_7056d6bab36f4928a6fb9c9a3677e972 = L.marker(
+            [28.212917, 112.97804099999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_351d191b41294b989f63a8e299b257b5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7056d6bab36f4928a6fb9c9a3677e972.setIcon(icon_351d191b41294b989f63a8e299b257b5);
+            
+    
+            var popup_77dfce9b9bc340dda70450a37cc87f7c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f6532ded967e414b8de35902085349ab = $(`<div id="html_f6532ded967e414b8de35902085349ab" style="width: 100.0%; height: 100.0%;">湘雅医院 </div>`)[0];
+                popup_77dfce9b9bc340dda70450a37cc87f7c.setContent(html_f6532ded967e414b8de35902085349ab);
+            
+
+            marker_7056d6bab36f4928a6fb9c9a3677e972.bindPopup(popup_77dfce9b9bc340dda70450a37cc87f7c)
+            ;
+
+            
+        
+    
+        var marker_ca3d9267fffe48f5a5ad93aeac79bc9b = L.marker(
+            [28.186690000000002, 112.988942],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_f57e84925ceb4392a30a91f5f7e39d5d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ca3d9267fffe48f5a5ad93aeac79bc9b.setIcon(icon_f57e84925ceb4392a30a91f5f7e39d5d);
+            
+    
+            var popup_de2162d4d6204aa89cef7f5378c2b337 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b39de1aec44545ec9306c9f744c58b89 = $(`<div id="html_b39de1aec44545ec9306c9f744c58b89" style="width: 100.0%; height: 100.0%;">湘雅二医院 </div>`)[0];
+                popup_de2162d4d6204aa89cef7f5378c2b337.setContent(html_b39de1aec44545ec9306c9f744c58b89);
+            
+
+            marker_ca3d9267fffe48f5a5ad93aeac79bc9b.bindPopup(popup_de2162d4d6204aa89cef7f5378c2b337)
+            ;
+
+            
+        
+    
+        var marker_f5a6f289d1174fea8f656bcb4f28dff8 = L.marker(
+            [28.219387, 112.938701],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_16a8db0689f949038373bb3db2a2ce9e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f5a6f289d1174fea8f656bcb4f28dff8.setIcon(icon_16a8db0689f949038373bb3db2a2ce9e);
+            
+    
+            var popup_43c94ddaf6534fc3bcebc2e4ee32ec03 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bcfd010d126a407f8060c23326735571 = $(`<div id="html_bcfd010d126a407f8060c23326735571" style="width: 100.0%; height: 100.0%;">湘雅三医院</div>`)[0];
+                popup_43c94ddaf6534fc3bcebc2e4ee32ec03.setContent(html_bcfd010d126a407f8060c23326735571);
+            
+
+            marker_f5a6f289d1174fea8f656bcb4f28dff8.bindPopup(popup_43c94ddaf6534fc3bcebc2e4ee32ec03)
+            ;
+
+            
+        
+    
+        var marker_4f145e4784d34f7089f49d6082107a5f = L.marker(
+            [28.191129, 112.97542299999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_f6d44b927ef4471891578c2344412a66 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4f145e4784d34f7089f49d6082107a5f.setIcon(icon_f6d44b927ef4471891578c2344412a66);
+            
+    
+            var popup_5a4e72421d6447d78de6a75225062ae2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_41e8286ea9e444a896fd90b661b70887 = $(`<div id="html_41e8286ea9e444a896fd90b661b70887" style="width: 100.0%; height: 100.0%;">湖南省人民医院</div>`)[0];
+                popup_5a4e72421d6447d78de6a75225062ae2.setContent(html_41e8286ea9e444a896fd90b661b70887);
+            
+
+            marker_4f145e4784d34f7089f49d6082107a5f.bindPopup(popup_5a4e72421d6447d78de6a75225062ae2)
+            ;
+
+            
+        
+    
+        var marker_51ac00e16fbb40c3b6ef681ed8a25e5d = L.marker(
+            [28.155819, 112.97954999999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_21c3b31f8b9c46b3acf9d3a857dabc45 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_51ac00e16fbb40c3b6ef681ed8a25e5d.setIcon(icon_21c3b31f8b9c46b3acf9d3a857dabc45);
+            
+    
+            var popup_5927e7d5a4de4a28a59a5c81dabf0d25 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0378a3c980334f689a02a5fd3f582ca0 = $(`<div id="html_0378a3c980334f689a02a5fd3f582ca0" style="width: 100.0%; height: 100.0%;">湖南省第二人民医院 </div>`)[0];
+                popup_5927e7d5a4de4a28a59a5c81dabf0d25.setContent(html_0378a3c980334f689a02a5fd3f582ca0);
+            
+
+            marker_51ac00e16fbb40c3b6ef681ed8a25e5d.bindPopup(popup_5927e7d5a4de4a28a59a5c81dabf0d25)
+            ;
+
+            
+        
+    
+        var marker_2fd850c3d2e94be39f9aec5e6664a282 = L.marker(
+            [28.143269, 112.99179099999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_49704afaf142417b9c23b918a67d7c7a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2fd850c3d2e94be39f9aec5e6664a282.setIcon(icon_49704afaf142417b9c23b918a67d7c7a);
+            
+    
+            var popup_68b3d991e12243dbba722381a1b9b327 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fd726e9f41ca4836b5a575e20c459159 = $(`<div id="html_fd726e9f41ca4836b5a575e20c459159" style="width: 100.0%; height: 100.0%;">长沙市中心医院</div>`)[0];
+                popup_68b3d991e12243dbba722381a1b9b327.setContent(html_fd726e9f41ca4836b5a575e20c459159);
+            
+
+            marker_2fd850c3d2e94be39f9aec5e6664a282.bindPopup(popup_68b3d991e12243dbba722381a1b9b327)
+            ;
+
+            
+        
+    
+        var marker_e18538b6df2e4411a5f986a39fa154bc = L.marker(
+            [28.205389, 112.97581699999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_185e16f9dba4488a886f49920638d81d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e18538b6df2e4411a5f986a39fa154bc.setIcon(icon_185e16f9dba4488a886f49920638d81d);
+            
+    
+            var popup_2770c0376a3d47e7b298426918fbca25 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c6f640f4206645e6a3fac7ac85612f26 = $(`<div id="html_c6f640f4206645e6a3fac7ac85612f26" style="width: 100.0%; height: 100.0%;">长沙市一医院</div>`)[0];
+                popup_2770c0376a3d47e7b298426918fbca25.setContent(html_c6f640f4206645e6a3fac7ac85612f26);
+            
+
+            marker_e18538b6df2e4411a5f986a39fa154bc.bindPopup(popup_2770c0376a3d47e7b298426918fbca25)
+            ;
+
+            
+        
+    
+        var marker_98ceb053a34d40e5afd71f77662fbc33 = L.marker(
+            [28.207601, 113.022973],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_2d350e3767f247bd829abcd91d93138a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_98ceb053a34d40e5afd71f77662fbc33.setIcon(icon_2d350e3767f247bd829abcd91d93138a);
+            
+    
+            var popup_7a9a5746a99f4d229289939b9e43b473 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_20f6be8852684a72a0fde23dbc91dd84 = $(`<div id="html_20f6be8852684a72a0fde23dbc91dd84" style="width: 100.0%; height: 100.0%;">湖南省人民医院马王堆院区</div>`)[0];
+                popup_7a9a5746a99f4d229289939b9e43b473.setContent(html_20f6be8852684a72a0fde23dbc91dd84);
+            
+
+            marker_98ceb053a34d40e5afd71f77662fbc33.bindPopup(popup_7a9a5746a99f4d229289939b9e43b473)
+            ;
+
+            
+        
+    
+        var marker_83babb829e2a437a97937fe6315a366c = L.marker(
+            [28.144252, 113.62234799999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_cc09f9b30a99431f8a4ec2728a1d2b03 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_83babb829e2a437a97937fe6315a366c.setIcon(icon_cc09f9b30a99431f8a4ec2728a1d2b03);
+            
+    
+            var popup_329a71b4e84d4263ac1c67cab39c1ec8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c37ba480859046358526de2c8834d022 = $(`<div id="html_c37ba480859046358526de2c8834d022" style="width: 100.0%; height: 100.0%;">浏阳市中医院</div>`)[0];
+                popup_329a71b4e84d4263ac1c67cab39c1ec8.setContent(html_c37ba480859046358526de2c8834d022);
+            
+
+            marker_83babb829e2a437a97937fe6315a366c.bindPopup(popup_329a71b4e84d4263ac1c67cab39c1ec8)
+            ;
+
+            
+        
+    
+        var marker_5adc6d01eb1347dc95f9f56a50869733 = L.marker(
+            [28.216332, 112.93106499999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_3b51152face64aa887912ce6beb84d48 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5adc6d01eb1347dc95f9f56a50869733.setIcon(icon_3b51152face64aa887912ce6beb84d48);
+            
+    
+            var popup_5508084fc0284b88bf48e6ad1ccc71b8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f1f22463d13940099c607787f0a92059 = $(`<div id="html_f1f22463d13940099c607787f0a92059" style="width: 100.0%; height: 100.0%;">湖南省肿瘤医院 </div>`)[0];
+                popup_5508084fc0284b88bf48e6ad1ccc71b8.setContent(html_f1f22463d13940099c607787f0a92059);
+            
+
+            marker_5adc6d01eb1347dc95f9f56a50869733.bindPopup(popup_5508084fc0284b88bf48e6ad1ccc71b8)
+            ;
+
+            
+        
+    
+        var marker_a156c9f8ebdc43e9ab191b7895cc58ab = L.marker(
+            [28.165966, 112.989139],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_f2868c37eb57460398c8386dd87aa598 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a156c9f8ebdc43e9ab191b7895cc58ab.setIcon(icon_f2868c37eb57460398c8386dd87aa598);
+            
+    
+            var popup_9afce21317f04646bb369f6f13048c6e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c8d495149d9b42ecbf7d836d798c0700 = $(`<div id="html_c8d495149d9b42ecbf7d836d798c0700" style="width: 100.0%; height: 100.0%;">湖南省中医附一医院</div>`)[0];
+                popup_9afce21317f04646bb369f6f13048c6e.setContent(html_c8d495149d9b42ecbf7d836d798c0700);
+            
+
+            marker_a156c9f8ebdc43e9ab191b7895cc58ab.bindPopup(popup_9afce21317f04646bb369f6f13048c6e)
+            ;
+
+            
+        
+    
+        var marker_6c8d497eb0984f3b873e9d022e54c70a = L.marker(
+            [28.204091000000002, 112.97452399999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_67abfd2526a941579a587c13c0e51798 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6c8d497eb0984f3b873e9d022e54c70a.setIcon(icon_67abfd2526a941579a587c13c0e51798);
+            
+    
+            var popup_4155b2c67e9549cea7893e2772ae3ecb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_766617604ff44718bde3138044a45aec = $(`<div id="html_766617604ff44718bde3138044a45aec" style="width: 100.0%; height: 100.0%;">湖南省中医院 </div>`)[0];
+                popup_4155b2c67e9549cea7893e2772ae3ecb.setContent(html_766617604ff44718bde3138044a45aec);
+            
+
+            marker_6c8d497eb0984f3b873e9d022e54c70a.bindPopup(popup_4155b2c67e9549cea7893e2772ae3ecb)
+            ;
+
+            
+        
+    
+        var marker_0dc03dcff4564095b53f699481e9c8f9 = L.marker(
+            [28.196475, 112.942636],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_83483efc50a44b3c82f0272825384570 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0dc03dcff4564095b53f699481e9c8f9.setIcon(icon_83483efc50a44b3c82f0272825384570);
+            
+    
+            var popup_afa20e0af4064e6c88b4db92d2c5dd6f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0758e7799bbe4adeb459b5694cea5c1b = $(`<div id="html_0758e7799bbe4adeb459b5694cea5c1b" style="width: 100.0%; height: 100.0%;">湖南省中医药研究院附属医院</div>`)[0];
+                popup_afa20e0af4064e6c88b4db92d2c5dd6f.setContent(html_0758e7799bbe4adeb459b5694cea5c1b);
+            
+
+            marker_0dc03dcff4564095b53f699481e9c8f9.bindPopup(popup_afa20e0af4064e6c88b4db92d2c5dd6f)
+            ;
+
+            
+        
+    
+        var marker_8b40489800304a1a9dcf30a810fed08e = L.marker(
+            [28.252197000000002, 112.538862],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_b24e4e9800f940aba233914e6c70aac8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8b40489800304a1a9dcf30a810fed08e.setIcon(icon_b24e4e9800f940aba233914e6c70aac8);
+            
+    
+            var popup_6f56e5386c4e43f3899600aa618a7973 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3a3f92b40f0d4fe5b660dc3e88132d99 = $(`<div id="html_3a3f92b40f0d4fe5b660dc3e88132d99" style="width: 100.0%; height: 100.0%;">宁乡市中医医院</div>`)[0];
+                popup_6f56e5386c4e43f3899600aa618a7973.setContent(html_3a3f92b40f0d4fe5b660dc3e88132d99);
+            
+
+            marker_8b40489800304a1a9dcf30a810fed08e.bindPopup(popup_6f56e5386c4e43f3899600aa618a7973)
+            ;
+
+            
+        
+    
+        var marker_a509ef80346447e7926e253eed256af0 = L.marker(
+            [28.236240000000002, 113.08047599999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_5e37733de64b4f978b3551ecb5d8e2eb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a509ef80346447e7926e253eed256af0.setIcon(icon_5e37733de64b4f978b3551ecb5d8e2eb);
+            
+    
+            var popup_2bb0a5a525a9443d917cbb863cd8bf8a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_28ade681f7cc4464a8a3daf55d6c2212 = $(`<div id="html_28ade681f7cc4464a8a3daf55d6c2212" style="width: 100.0%; height: 100.0%;">长沙市中医院</div>`)[0];
+                popup_2bb0a5a525a9443d917cbb863cd8bf8a.setContent(html_28ade681f7cc4464a8a3daf55d6c2212);
+            
+
+            marker_a509ef80346447e7926e253eed256af0.bindPopup(popup_2bb0a5a525a9443d917cbb863cd8bf8a)
+            ;
+
+            
+        
+    
+        var marker_83a24eea12ab4334a05344d2d0b1b118 = L.marker(
+            [28.208659, 112.97679699999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_9a251354990a4f3b9b3b47fdfb0de809 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_83a24eea12ab4334a05344d2d0b1b118.setIcon(icon_9a251354990a4f3b9b3b47fdfb0de809);
+            
+    
+            var popup_4f67d565e09b43b9b2d99840b329258a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_36c6c3f03e9c4c78917f17ffdce00199 = $(`<div id="html_36c6c3f03e9c4c78917f17ffdce00199" style="width: 100.0%; height: 100.0%;">湖南省妇幼保健院</div>`)[0];
+                popup_4f67d565e09b43b9b2d99840b329258a.setContent(html_36c6c3f03e9c4c78917f17ffdce00199);
+            
+
+            marker_83a24eea12ab4334a05344d2d0b1b118.bindPopup(popup_4f67d565e09b43b9b2d99840b329258a)
+            ;
+
+            
+        
+    
+        var marker_c53771507fc24f4488cf6954c4870087 = L.marker(
+            [28.180612, 112.99179799999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_50ffa960b9e047b9bc3c4caaa7283adc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c53771507fc24f4488cf6954c4870087.setIcon(icon_50ffa960b9e047b9bc3c4caaa7283adc);
+            
+    
+            var popup_7cbe7b79f7f9478cbd71534b8e1f1b89 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e60e28c1d9694b1dbcdc9282159f25f4 = $(`<div id="html_e60e28c1d9694b1dbcdc9282159f25f4" style="width: 100.0%; height: 100.0%;">长沙市妇幼保健院 </div>`)[0];
+                popup_7cbe7b79f7f9478cbd71534b8e1f1b89.setContent(html_e60e28c1d9694b1dbcdc9282159f25f4);
+            
+
+            marker_c53771507fc24f4488cf6954c4870087.bindPopup(popup_7cbe7b79f7f9478cbd71534b8e1f1b89)
+            ;
+
+            
+        
+    
+        var marker_1d812ce3cd6949c29fc430402d2ba87d = L.marker(
+            [28.174477, 112.98257699999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_f7a5aded1ef64aefb12f9af5413af701 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1d812ce3cd6949c29fc430402d2ba87d.setIcon(icon_f7a5aded1ef64aefb12f9af5413af701);
+            
+    
+            var popup_5dac60f36fda4f86b0046665d48ef9f5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dff5d90b20ad4a0d9c7a6185a1b0a67e = $(`<div id="html_dff5d90b20ad4a0d9c7a6185a1b0a67e" style="width: 100.0%; height: 100.0%;">湖南省儿童医院 </div>`)[0];
+                popup_5dac60f36fda4f86b0046665d48ef9f5.setContent(html_dff5d90b20ad4a0d9c7a6185a1b0a67e);
+            
+
+            marker_1d812ce3cd6949c29fc430402d2ba87d.bindPopup(popup_5dac60f36fda4f86b0046665d48ef9f5)
+            ;
+
+            
+        
+    
+        var marker_0c7667f81df546318996493649773df3 = L.marker(
+            [28.210388000000002, 112.92796],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_f8d50665feb84450a0f2aa3e9e9da6d9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0c7667f81df546318996493649773df3.setIcon(icon_f8d50665feb84450a0f2aa3e9e9da6d9);
+            
+    
+            var popup_6940b08d388f41488e0a1e8ff7da8fa6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_beb69b244715452984370d3cfc481ffb = $(`<div id="html_beb69b244715452984370d3cfc481ffb" style="width: 100.0%; height: 100.0%;">湖南省结核病医院</div>`)[0];
+                popup_6940b08d388f41488e0a1e8ff7da8fa6.setContent(html_beb69b244715452984370d3cfc481ffb);
+            
+
+            marker_0c7667f81df546318996493649773df3.bindPopup(popup_6940b08d388f41488e0a1e8ff7da8fa6)
+            ;
+
+            
+        
+    
+        var marker_20f0746eb0334377a0165a9e988ea8fc = L.marker(
+            [28.195147000000002, 112.94305899999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_0a1c611eb58b4be08d8fba665379c941 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a52c2fa4e4ca4766ba6b2d83623dc16e = $(`<div id="html_a52c2fa4e4ca4766ba6b2d83623dc16e" style="width: 100.0%; height: 100.0%;">长沙市第四医院</div>`)[0];
+                popup_0a1c611eb58b4be08d8fba665379c941.setContent(html_a52c2fa4e4ca4766ba6b2d83623dc16e);
+            
+
+            marker_20f0746eb0334377a0165a9e988ea8fc.bindPopup(popup_0a1c611eb58b4be08d8fba665379c941)
+            ;
+
+            
+        
+    
+        var marker_5a6f44595f064998a7de3ecd88413293 = L.marker(
+            [28.175952000000002, 112.97105499999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_c571b672d4d64d63a61ebedc8bb69c54 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b960d52600114012a11f3cd2866c78db = $(`<div id="html_b960d52600114012a11f3cd2866c78db" style="width: 100.0%; height: 100.0%;">长沙市三医院</div>`)[0];
+                popup_c571b672d4d64d63a61ebedc8bb69c54.setContent(html_b960d52600114012a11f3cd2866c78db);
+            
+
+            marker_5a6f44595f064998a7de3ecd88413293.bindPopup(popup_c571b672d4d64d63a61ebedc8bb69c54)
+            ;
+
+            
+        
+    
+        var marker_3786c845b64b47ecb7834f895110bc72 = L.marker(
+            [28.140302000000002, 113.624325],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_dac8fffcecdd49d79f5e6c97c47a84bc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_28be123f6e3142fabe8ec991161b8002 = $(`<div id="html_28be123f6e3142fabe8ec991161b8002" style="width: 100.0%; height: 100.0%;">浏阳市人民医院</div>`)[0];
+                popup_dac8fffcecdd49d79f5e6c97c47a84bc.setContent(html_28be123f6e3142fabe8ec991161b8002);
+            
+
+            marker_3786c845b64b47ecb7834f895110bc72.bindPopup(popup_dac8fffcecdd49d79f5e6c97c47a84bc)
+            ;
+
+            
+        
+    
+        var marker_1b44d88169694143ba615ffe53d8b0c9 = L.marker(
+            [28.246045000000002, 113.00988199999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_2323a1da558d4d35a5351fae58ebfdd6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6e3e594b748249bca46a3913c36d6ee9 = $(`<div id="html_6e3e594b748249bca46a3913c36d6ee9" style="width: 100.0%; height: 100.0%;">解放军第163医院</div>`)[0];
+                popup_2323a1da558d4d35a5351fae58ebfdd6.setContent(html_6e3e594b748249bca46a3913c36d6ee9);
+            
+
+            marker_1b44d88169694143ba615ffe53d8b0c9.bindPopup(popup_2323a1da558d4d35a5351fae58ebfdd6)
+            ;
+
+            
+        
+    
+        var marker_667999d269bf4cd19331a293ee94060a = L.marker(
+            [28.124836000000002, 112.98364199999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_0e70a1697af7455eb5ff7713a76accd2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4650a0c9e51841148be538a54b547507 = $(`<div id="html_4650a0c9e51841148be538a54b547507" style="width: 100.0%; height: 100.0%;">长沙口腔医院 </div>`)[0];
+                popup_0e70a1697af7455eb5ff7713a76accd2.setContent(html_4650a0c9e51841148be538a54b547507);
+            
+
+            marker_667999d269bf4cd19331a293ee94060a.bindPopup(popup_0e70a1697af7455eb5ff7713a76accd2)
+            ;
+
+            
+        
+    
+        var marker_91ddd62a47b3468aa130a0ed2dd70d62 = L.marker(
+            [28.267266, 112.54058599999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_d82e36cac03a4014aaa22a25180f8669 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aa14089a424c41e3b38dca495af833d2 = $(`<div id="html_aa14089a424c41e3b38dca495af833d2" style="width: 100.0%; height: 100.0%;">宁乡市人民医院</div>`)[0];
+                popup_d82e36cac03a4014aaa22a25180f8669.setContent(html_aa14089a424c41e3b38dca495af833d2);
+            
+
+            marker_91ddd62a47b3468aa130a0ed2dd70d62.bindPopup(popup_d82e36cac03a4014aaa22a25180f8669)
+            ;
+
+            
+        
+    
+        var marker_1e34224df6964fd3951e0fa6dd34d7a6 = L.marker(
+            [28.373274000000002, 112.80736999999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_92f94839c3f24a6187abdf3206b55bda = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_74fbcc0def874143b9f4905e23ab509c = $(`<div id="html_74fbcc0def874143b9f4905e23ab509c" style="width: 100.0%; height: 100.0%;">望城县人民医院</div>`)[0];
+                popup_92f94839c3f24a6187abdf3206b55bda.setContent(html_74fbcc0def874143b9f4905e23ab509c);
+            
+
+            marker_1e34224df6964fd3951e0fa6dd34d7a6.bindPopup(popup_92f94839c3f24a6187abdf3206b55bda)
+            ;
+
+            
+        
+    
+        var marker_9f362cb53b1b4d68b3ebce626fced47c = L.marker(
+            [28.207739, 112.89553799999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_af8f8b3fe0ea473ea3916989fbf09684 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e8e260406ed4436688f36be2fbcefe2a = $(`<div id="html_e8e260406ed4436688f36be2fbcefe2a" style="width: 100.0%; height: 100.0%;">湖南航天医院 </div>`)[0];
+                popup_af8f8b3fe0ea473ea3916989fbf09684.setContent(html_e8e260406ed4436688f36be2fbcefe2a);
+            
+
+            marker_9f362cb53b1b4d68b3ebce626fced47c.bindPopup(popup_af8f8b3fe0ea473ea3916989fbf09684)
+            ;
+
+            
+        
+    
+        var marker_5e2a371a29034a18a24849b26f711a22 = L.marker(
+            [28.186032, 112.99368],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_26bd42aeea024a9cb92ba4404f6691ae = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f4446ebb34e4472d85a31ab47ec930c7 = $(`<div id="html_f4446ebb34e4472d85a31ab47ec930c7" style="width: 100.0%; height: 100.0%;">长沙市中医康复医院</div>`)[0];
+                popup_26bd42aeea024a9cb92ba4404f6691ae.setContent(html_f4446ebb34e4472d85a31ab47ec930c7);
+            
+
+            marker_5e2a371a29034a18a24849b26f711a22.bindPopup(popup_26bd42aeea024a9cb92ba4404f6691ae)
+            ;
+
+            
+        
+    
+        var marker_29cb6a1df89245bf8b5e72cf808e96f4 = L.marker(
+            [28.150612000000002, 113.62058499999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_bd75d9b66099431abfb78773fd6324ea = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_569b23a5a678439cb0ac72c0534bf2c7 = $(`<div id="html_569b23a5a678439cb0ac72c0534bf2c7" style="width: 100.0%; height: 100.0%;">浏阳市妇幼保健院</div>`)[0];
+                popup_bd75d9b66099431abfb78773fd6324ea.setContent(html_569b23a5a678439cb0ac72c0534bf2c7);
+            
+
+            marker_29cb6a1df89245bf8b5e72cf808e96f4.bindPopup(popup_bd75d9b66099431abfb78773fd6324ea)
+            ;
+
+            
+        
+    
+        var marker_5767fcb373ce47b79d69895ed1ca8598 = L.marker(
+            [28.244793, 113.119937],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_6811dabeb0e24fbbb6c93c80b377997f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2b8fa25886794d0ba5cf9525e5157c68 = $(`<div id="html_2b8fa25886794d0ba5cf9525e5157c68" style="width: 100.0%; height: 100.0%;">长沙县妇幼保健院</div>`)[0];
+                popup_6811dabeb0e24fbbb6c93c80b377997f.setContent(html_2b8fa25886794d0ba5cf9525e5157c68);
+            
+
+            marker_5767fcb373ce47b79d69895ed1ca8598.bindPopup(popup_6811dabeb0e24fbbb6c93c80b377997f)
+            ;
+
+            
+        
+    
+        var marker_89a934477ddc4c6fa0222606b3291061 = L.marker(
+            [28.152011, 112.985345],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_855724f51b5048be8e25c09123fa1769 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c5847a63bb8947dbb27e6e06bf692554 = $(`<div id="html_c5847a63bb8947dbb27e6e06bf692554" style="width: 100.0%; height: 100.0%;">湖南省地矿医院</div>`)[0];
+                popup_855724f51b5048be8e25c09123fa1769.setContent(html_c5847a63bb8947dbb27e6e06bf692554);
+            
+
+            marker_89a934477ddc4c6fa0222606b3291061.bindPopup(popup_855724f51b5048be8e25c09123fa1769)
+            ;
+
+            
+        
+    
+        var marker_481f2797404348fdb2ee2a290253e403 = L.marker(
+            [28.198922, 112.984388],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_ed893542f000462da0ee6f3ea87b8b95 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4caa77ba67fa43a89d196f9dc56ffdb7 = $(`<div id="html_4caa77ba67fa43a89d196f9dc56ffdb7" style="width: 100.0%; height: 100.0%;">湖南省交通医院</div>`)[0];
+                popup_ed893542f000462da0ee6f3ea87b8b95.setContent(html_4caa77ba67fa43a89d196f9dc56ffdb7);
+            
+
+            marker_481f2797404348fdb2ee2a290253e403.bindPopup(popup_ed893542f000462da0ee6f3ea87b8b95)
+            ;
+
+            
+        
+    
+        var marker_924a3420e7984d9cb80648207598372f = L.marker(
+            [28.183558, 113.104253],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_6d18c75ffd1a49a4b58ff42bf56f5f97 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7a008cde04d043faaf015067ad374d9e = $(`<div id="html_7a008cde04d043faaf015067ad374d9e" style="width: 100.0%; height: 100.0%;">长沙县第二人民医院</div>`)[0];
+                popup_6d18c75ffd1a49a4b58ff42bf56f5f97.setContent(html_7a008cde04d043faaf015067ad374d9e);
+            
+
+            marker_924a3420e7984d9cb80648207598372f.bindPopup(popup_6d18c75ffd1a49a4b58ff42bf56f5f97)
+            ;
+
+            
+        
+    
+        var marker_4a2d919eea154180970d2711191147c6 = L.marker(
+            [28.026924, 112.97176999999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_91b70777cf904a1db467ee09fa162161 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4265fb43b0154851a0845c8009ebd61a = $(`<div id="html_4265fb43b0154851a0845c8009ebd61a" style="width: 100.0%; height: 100.0%;">湖南省荣军医院 </div>`)[0];
+                popup_91b70777cf904a1db467ee09fa162161.setContent(html_4265fb43b0154851a0845c8009ebd61a);
+            
+
+            marker_4a2d919eea154180970d2711191147c6.bindPopup(popup_91b70777cf904a1db467ee09fa162161)
+            ;
+
+            
+        
+    
+        var marker_dc377b5d61cc43108caaf01162fc8648 = L.marker(
+            [28.246888000000002, 113.08263699999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_f0f1dba60a4343e4b07b7cdb9d325074 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_187e600362454d1bb79e0dce44c1abda = $(`<div id="html_187e600362454d1bb79e0dce44c1abda" style="width: 100.0%; height: 100.0%;">长沙县星沙医院 </div>`)[0];
+                popup_f0f1dba60a4343e4b07b7cdb9d325074.setContent(html_187e600362454d1bb79e0dce44c1abda);
+            
+
+            marker_dc377b5d61cc43108caaf01162fc8648.bindPopup(popup_f0f1dba60a4343e4b07b7cdb9d325074)
+            ;
+
+            
+        
+    
+        var marker_80f63df3729c434b8ccb3627c4428b41 = L.marker(
+            [28.399097, 113.28172199999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_bf5cedf9aa704919a989366aae1f5b71 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0dc021f6bd9943d28dbcb6e9a234a774 = $(`<div id="html_0dc021f6bd9943d28dbcb6e9a234a774" style="width: 100.0%; height: 100.0%;">长沙县第一人民医院</div>`)[0];
+                popup_bf5cedf9aa704919a989366aae1f5b71.setContent(html_0dc021f6bd9943d28dbcb6e9a234a774);
+            
+
+            marker_80f63df3729c434b8ccb3627c4428b41.bindPopup(popup_bf5cedf9aa704919a989366aae1f5b71)
+            ;
+
+            
+        
+    
+        var marker_dcddb73c7f47410f817c5c779a8a94fc = L.marker(
+            [28.191017000000002, 112.96804999999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_50cb456571d64fd7a93a9f285ce2d599 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_951e92b6580d42c09982b9302eba7fd8 = $(`<div id="html_951e92b6580d42c09982b9302eba7fd8" style="width: 100.0%; height: 100.0%;">湖南省财贸医院 </div>`)[0];
+                popup_50cb456571d64fd7a93a9f285ce2d599.setContent(html_951e92b6580d42c09982b9302eba7fd8);
+            
+
+            marker_dcddb73c7f47410f817c5c779a8a94fc.bindPopup(popup_50cb456571d64fd7a93a9f285ce2d599)
+            ;
+
+            
+        
+    
+        var marker_a8658dab471f457a901598c46a696ade = L.marker(
+            [28.399287, 113.281246],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_529284b6136345dcb0b5eaba88b380d2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ef17ab597bf64b3dbd377cdf276f6bfd = $(`<div id="html_ef17ab597bf64b3dbd377cdf276f6bfd" style="width: 100.0%; height: 100.0%;">长沙县第三人民医院</div>`)[0];
+                popup_529284b6136345dcb0b5eaba88b380d2.setContent(html_ef17ab597bf64b3dbd377cdf276f6bfd);
+            
+
+            marker_a8658dab471f457a901598c46a696ade.bindPopup(popup_529284b6136345dcb0b5eaba88b380d2)
+            ;
+
+            
+        
+    
+        var marker_80d73947f72049ae951e9bb4397ab9d5 = L.marker(
+            [28.214544, 112.97756899999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_d695d78da59c4eb4a77e6879a8193352 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3e6c213c7fec456c853967adcffbf6e8 = $(`<div id="html_3e6c213c7fec456c853967adcffbf6e8" style="width: 100.0%; height: 100.0%;">中南大学湘雅口腔医院</div>`)[0];
+                popup_d695d78da59c4eb4a77e6879a8193352.setContent(html_3e6c213c7fec456c853967adcffbf6e8);
+            
+
+            marker_80d73947f72049ae951e9bb4397ab9d5.bindPopup(popup_d695d78da59c4eb4a77e6879a8193352)
+            ;
+
+            
+        
+    
+        var marker_a34e104137a9413e8297531c1b931f33 = L.marker(
+            [28.239254000000003, 112.53957],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_e1f518a2d455434e9225e455b358d3ff = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e7a3bd036a644957b0138818eb7a95f1 = $(`<div id="html_e7a3bd036a644957b0138818eb7a95f1" style="width: 100.0%; height: 100.0%;">宁乡县妇幼保健医院</div>`)[0];
+                popup_e1f518a2d455434e9225e455b358d3ff.setContent(html_e7a3bd036a644957b0138818eb7a95f1);
+            
+
+            marker_a34e104137a9413e8297531c1b931f33.bindPopup(popup_e1f518a2d455434e9225e455b358d3ff)
+            ;
+
+            
+        
+    
+        var marker_de81f641dea64b5694022ef4d466784b = L.marker(
+            [28.153604, 113.608059],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_6db111f2905047879cd559d5e9998e52 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b67623ca944143d3bc6c392aa9369b66 = $(`<div id="html_b67623ca944143d3bc6c392aa9369b66" style="width: 100.0%; height: 100.0%;">浏阳市集里医院</div>`)[0];
+                popup_6db111f2905047879cd559d5e9998e52.setContent(html_b67623ca944143d3bc6c392aa9369b66);
+            
+
+            marker_de81f641dea64b5694022ef4d466784b.bindPopup(popup_6db111f2905047879cd559d5e9998e52)
+            ;
+
+            
+        
+    
+        var marker_eb9c612b160f4ac587c078235e6fd9c0 = L.marker(
+            [28.087009000000002, 112.96466199999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_8d72eefc5f404fe78bde2c6a0ee17262 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2b4a39b1128047f59c3cb086fe8c39c2 = $(`<div id="html_2b4a39b1128047f59c3cb086fe8c39c2" style="width: 100.0%; height: 100.0%;">长沙市天心区大托卫生院 </div>`)[0];
+                popup_8d72eefc5f404fe78bde2c6a0ee17262.setContent(html_2b4a39b1128047f59c3cb086fe8c39c2);
+            
+
+            marker_eb9c612b160f4ac587c078235e6fd9c0.bindPopup(popup_8d72eefc5f404fe78bde2c6a0ee17262)
+            ;
+
+            
+        
+    
+        var marker_493b466f84b44c259c0d5fc24e45c5ba = L.marker(
+            [28.205704, 112.948695],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_6ce59e166f07430885b513ef37a74fcc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5ec46d28adc84a7ca56005f851349566 = $(`<div id="html_5ec46d28adc84a7ca56005f851349566" style="width: 100.0%; height: 100.0%;">岳麓区妇幼保健所 </div>`)[0];
+                popup_6ce59e166f07430885b513ef37a74fcc.setContent(html_5ec46d28adc84a7ca56005f851349566);
+            
+
+            marker_493b466f84b44c259c0d5fc24e45c5ba.bindPopup(popup_6ce59e166f07430885b513ef37a74fcc)
+            ;
+
+            
+        
+    
+        var marker_11e818c0994c41359c1817e9d1080d46 = L.marker(
+            [28.137119000000002, 113.05227599999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_991c78d338fd422a998942c84bd2a4d9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a2aa38c65a4640e580da510503224711 = $(`<div id="html_a2aa38c65a4640e580da510503224711" style="width: 100.0%; height: 100.0%;">长沙市雨花区东山街道社区卫生服务中心</div>`)[0];
+                popup_991c78d338fd422a998942c84bd2a4d9.setContent(html_a2aa38c65a4640e580da510503224711);
+            
+
+            marker_11e818c0994c41359c1817e9d1080d46.bindPopup(popup_991c78d338fd422a998942c84bd2a4d9)
+            ;
+
+            
+        
+    
+        var marker_ae90ff220ae44d5590d924316529a03c = L.marker(
+            [28.180045, 112.473636],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_0b9a2cc1ff404d688031d626cc71fd71 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5115b173b18b45978c2c3fecd681ab68 = $(`<div id="html_5115b173b18b45978c2c3fecd681ab68" style="width: 100.0%; height: 100.0%;">坝塘镇卫生院</div>`)[0];
+                popup_0b9a2cc1ff404d688031d626cc71fd71.setContent(html_5115b173b18b45978c2c3fecd681ab68);
+            
+
+            marker_ae90ff220ae44d5590d924316529a03c.bindPopup(popup_0b9a2cc1ff404d688031d626cc71fd71)
+            ;
+
+            
+        
+    
+        var marker_63b4d03b7a964ff5928c39688abe0c41 = L.marker(
+            [28.27993, 113.746591],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_bbb62c5434b94576b5beae2cfaab2da7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e38bba097eee46c9b45295aca8e37651 = $(`<div id="html_e38bba097eee46c9b45295aca8e37651" style="width: 100.0%; height: 100.0%;">古港镇卫生院</div>`)[0];
+                popup_bbb62c5434b94576b5beae2cfaab2da7.setContent(html_e38bba097eee46c9b45295aca8e37651);
+            
+
+            marker_63b4d03b7a964ff5928c39688abe0c41.bindPopup(popup_bbb62c5434b94576b5beae2cfaab2da7)
+            ;
+
+            
+        
+    
+        var marker_5865c8d5af724585bb05d4e271869761 = L.marker(
+            [28.197233, 112.88419999999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_42fe38a8e76d458a85109ba974674938 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5865c8d5af724585bb05d4e271869761.setIcon(icon_42fe38a8e76d458a85109ba974674938);
+            
+    
+            var popup_87d738af179e45aea267b5dac11e92b8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4cfe65ebc3054e6792d1076aed289866 = $(`<div id="html_4cfe65ebc3054e6792d1076aed289866" style="width: 100.0%; height: 100.0%;">长沙市岳麓区天顶街道社区卫生服务中心</div>`)[0];
+                popup_87d738af179e45aea267b5dac11e92b8.setContent(html_4cfe65ebc3054e6792d1076aed289866);
+            
+
+            marker_5865c8d5af724585bb05d4e271869761.bindPopup(popup_87d738af179e45aea267b5dac11e92b8)
+            ;
+
+            
+        
+    
+        var marker_9e099b2bb5d746609cf56b475f97a9bd = L.marker(
+            [28.178218, 112.97023499999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_e56ddd108cf94b9993f6dfd0a4236f99 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9e099b2bb5d746609cf56b475f97a9bd.setIcon(icon_e56ddd108cf94b9993f6dfd0a4236f99);
+            
+    
+            var popup_d3f807fe2ac84cd2910dfba89e99495d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e2d763e924484638b5d546a03423d154 = $(`<div id="html_e2d763e924484638b5d546a03423d154" style="width: 100.0%; height: 100.0%;">坡子街社区卫生服务中心</div>`)[0];
+                popup_d3f807fe2ac84cd2910dfba89e99495d.setContent(html_e2d763e924484638b5d546a03423d154);
+            
+
+            marker_9e099b2bb5d746609cf56b475f97a9bd.bindPopup(popup_d3f807fe2ac84cd2910dfba89e99495d)
+            ;
+
+            
+        
+    
+        var marker_0698bc007edb449bb180f5c9d7c6f561 = L.marker(
+            [28.161857, 112.984766],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_2035b7cbbd0248a0be3761f383708314 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0698bc007edb449bb180f5c9d7c6f561.setIcon(icon_2035b7cbbd0248a0be3761f383708314);
+            
+    
+            var popup_9e503d71406346928eb1047ef34f99aa = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_28ad41d850bd478fbf6a2704aca967e6 = $(`<div id="html_28ad41d850bd478fbf6a2704aca967e6" style="width: 100.0%; height: 100.0%;">雨花区东塘街道社区卫生服务中心</div>`)[0];
+                popup_9e503d71406346928eb1047ef34f99aa.setContent(html_28ad41d850bd478fbf6a2704aca967e6);
+            
+
+            marker_0698bc007edb449bb180f5c9d7c6f561.bindPopup(popup_9e503d71406346928eb1047ef34f99aa)
+            ;
+
+            
+        
+    
+        var marker_9f9b8ba5245646e08bec54a08538d6b6 = L.marker(
+            [28.252734, 113.001626],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_84f6d8a8c1e64fabbd1d16d7e8d4bc12 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9f9b8ba5245646e08bec54a08538d6b6.setIcon(icon_84f6d8a8c1e64fabbd1d16d7e8d4bc12);
+            
+    
+            var popup_ab8612d063664d9abf2321458967363f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0631f7ca75484969b40aa296300266b4 = $(`<div id="html_0631f7ca75484969b40aa296300266b4" style="width: 100.0%; height: 100.0%;">开福区青竹湖街道社区卫生服务中心</div>`)[0];
+                popup_ab8612d063664d9abf2321458967363f.setContent(html_0631f7ca75484969b40aa296300266b4);
+            
+
+            marker_9f9b8ba5245646e08bec54a08538d6b6.bindPopup(popup_ab8612d063664d9abf2321458967363f)
+            ;
+
+            
+        
+    
+        var marker_fb6c85d5b1d343bf8fb57e5ef8833f51 = L.marker(
+            [28.215901000000002, 112.923369],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_e2d71425458a47f78a260563dac7fecf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fb6c85d5b1d343bf8fb57e5ef8833f51.setIcon(icon_e2d71425458a47f78a260563dac7fecf);
+            
+    
+            var popup_8ddc6bdcc37646588ae1c1f1b028ed1c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3c2bee65740a461ea1481e475aa2a707 = $(`<div id="html_3c2bee65740a461ea1481e475aa2a707" style="width: 100.0%; height: 100.0%;">岳麓区咸嘉湖社区卫生服务中心</div>`)[0];
+                popup_8ddc6bdcc37646588ae1c1f1b028ed1c.setContent(html_3c2bee65740a461ea1481e475aa2a707);
+            
+
+            marker_fb6c85d5b1d343bf8fb57e5ef8833f51.bindPopup(popup_8ddc6bdcc37646588ae1c1f1b028ed1c)
+            ;
+
+            
+        
+    
+        var marker_2e030344bf514d4581101d08780284bd = L.marker(
+            [28.212782, 112.931131],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_ff76c137347b40998b0ebacf52da1fed = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e030344bf514d4581101d08780284bd.setIcon(icon_ff76c137347b40998b0ebacf52da1fed);
+            
+    
+            var popup_3a2ff3687ac646b89d55bd34fb5258ae = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0abdfa520f7f48358708cb0b311f8284 = $(`<div id="html_0abdfa520f7f48358708cb0b311f8284" style="width: 100.0%; height: 100.0%;">岳麓区西湖街道社区卫生服务中心</div>`)[0];
+                popup_3a2ff3687ac646b89d55bd34fb5258ae.setContent(html_0abdfa520f7f48358708cb0b311f8284);
+            
+
+            marker_2e030344bf514d4581101d08780284bd.bindPopup(popup_3a2ff3687ac646b89d55bd34fb5258ae)
+            ;
+
+            
+        
+    
+        var marker_ffb8e23bf42c4f53950d06329700906c = L.marker(
+            [28.180552000000002, 113.021553],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_3d20e6719fb94b78a6739b5da97d51e6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ffb8e23bf42c4f53950d06329700906c.setIcon(icon_3d20e6719fb94b78a6739b5da97d51e6);
+            
+    
+            var popup_233a77a6b0444249bc63cab658b19306 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5c4e7eb7d4064ea9960101d3ab482256 = $(`<div id="html_5c4e7eb7d4064ea9960101d3ab482256" style="width: 100.0%; height: 100.0%;">雨花区高桥街道社区卫生服务中心</div>`)[0];
+                popup_233a77a6b0444249bc63cab658b19306.setContent(html_5c4e7eb7d4064ea9960101d3ab482256);
+            
+
+            marker_ffb8e23bf42c4f53950d06329700906c.bindPopup(popup_233a77a6b0444249bc63cab658b19306)
+            ;
+
+            
+        
+    
+        var marker_fefca9f5e07a4938b987908eef196f35 = L.marker(
+            [28.264335000000003, 113.062871],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_a6255de94eb8499ca51cdb8c2afa8b10 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fefca9f5e07a4938b987908eef196f35.setIcon(icon_a6255de94eb8499ca51cdb8c2afa8b10);
+            
+    
+            var popup_dd9f0b24ddf5423aad2a1dab9fe9631b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c2d611b7735d45f2b4001701ff9f6634 = $(`<div id="html_c2d611b7735d45f2b4001701ff9f6634" style="width: 100.0%; height: 100.0%;">长沙县湘龙街道社区卫生服务中心</div>`)[0];
+                popup_dd9f0b24ddf5423aad2a1dab9fe9631b.setContent(html_c2d611b7735d45f2b4001701ff9f6634);
+            
+
+            marker_fefca9f5e07a4938b987908eef196f35.bindPopup(popup_dd9f0b24ddf5423aad2a1dab9fe9631b)
+            ;
+
+            
+        
+    
+        var marker_baf847b4cc9646078610c84ab70bb719 = L.marker(
+            [28.206154, 113.01669299999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_d2352338779a40faa12615193800613d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_baf847b4cc9646078610c84ab70bb719.setIcon(icon_d2352338779a40faa12615193800613d);
+            
+    
+            var popup_d4af03aada7543b98833e121b8dfeefb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5aa10d0eeb9f40bab596cbf7f774a8e3 = $(`<div id="html_5aa10d0eeb9f40bab596cbf7f774a8e3" style="width: 100.0%; height: 100.0%;">芙蓉区火星街道社区卫生服务中心</div>`)[0];
+                popup_d4af03aada7543b98833e121b8dfeefb.setContent(html_5aa10d0eeb9f40bab596cbf7f774a8e3);
+            
+
+            marker_baf847b4cc9646078610c84ab70bb719.bindPopup(popup_d4af03aada7543b98833e121b8dfeefb)
+            ;
+
+            
+        
+    
+        var marker_f813c9e02bbe401d9bef2db8df54bb3c = L.marker(
+            [28.199602000000002, 112.97627899999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_0a708de2467e40cc869d2c2af4d34c18 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f813c9e02bbe401d9bef2db8df54bb3c.setIcon(icon_0a708de2467e40cc869d2c2af4d34c18);
+            
+    
+            var popup_8c0553f1d68c4e308831811047e6b06b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_456b8ce887e540c4b602c85a8e4f8b0d = $(`<div id="html_456b8ce887e540c4b602c85a8e4f8b0d" style="width: 100.0%; height: 100.0%;">芙蓉区定王台街道社区卫生服务中心</div>`)[0];
+                popup_8c0553f1d68c4e308831811047e6b06b.setContent(html_456b8ce887e540c4b602c85a8e4f8b0d);
+            
+
+            marker_f813c9e02bbe401d9bef2db8df54bb3c.bindPopup(popup_8c0553f1d68c4e308831811047e6b06b)
+            ;
+
+            
+        
+    
+        var marker_8676f06ada584e10ac921b3416a2cbf7 = L.marker(
+            [28.201439, 113.01922599999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_5d8c30a833a94b0fa129d6c1c7f67879 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8676f06ada584e10ac921b3416a2cbf7.setIcon(icon_5d8c30a833a94b0fa129d6c1c7f67879);
+            
+    
+            var popup_233cefa7192b4c629b12c3960c9b728d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5d6c49e50c734ba6aeabb2e2834bf030 = $(`<div id="html_5d6c49e50c734ba6aeabb2e2834bf030" style="width: 100.0%; height: 100.0%;">芙蓉区马王堆街道社区卫生服务中心</div>`)[0];
+                popup_233cefa7192b4c629b12c3960c9b728d.setContent(html_5d6c49e50c734ba6aeabb2e2834bf030);
+            
+
+            marker_8676f06ada584e10ac921b3416a2cbf7.bindPopup(popup_233cefa7192b4c629b12c3960c9b728d)
+            ;
+
+            
+        
+    
+        var marker_31e43c8d77404462bacb2d9068772883 = L.marker(
+            [28.196361, 112.39017],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_7cde26b5889f4016932ba3c12bd0e92a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_31e43c8d77404462bacb2d9068772883.setIcon(icon_7cde26b5889f4016932ba3c12bd0e92a);
+            
+    
+            var popup_ad64f95561ca4e4c9bf02d114a0e08c9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_042707df9c6d4c7b90f289505d5950e1 = $(`<div id="html_042707df9c6d4c7b90f289505d5950e1" style="width: 100.0%; height: 100.0%;">宁乡县大成桥镇永盛村卫生室</div>`)[0];
+                popup_ad64f95561ca4e4c9bf02d114a0e08c9.setContent(html_042707df9c6d4c7b90f289505d5950e1);
+            
+
+            marker_31e43c8d77404462bacb2d9068772883.bindPopup(popup_ad64f95561ca4e4c9bf02d114a0e08c9)
+            ;
+
+            
+        
+    
+        var marker_170a1319224f48be9c79b9277827ffed = L.marker(
+            [28.277681, 112.410923],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_0a05969faa314fee886a50147841c25b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_170a1319224f48be9c79b9277827ffed.setIcon(icon_0a05969faa314fee886a50147841c25b);
+            
+    
+            var popup_18141fa8bcc04f249c9cc6023b3a4e4c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_33c8113f3b01460fa3edcdf7d2fd8fd5 = $(`<div id="html_33c8113f3b01460fa3edcdf7d2fd8fd5" style="width: 100.0%; height: 100.0%;">宁乡县煤炭坝镇贺石桥村卫生室</div>`)[0];
+                popup_18141fa8bcc04f249c9cc6023b3a4e4c.setContent(html_33c8113f3b01460fa3edcdf7d2fd8fd5);
+            
+
+            marker_170a1319224f48be9c79b9277827ffed.bindPopup(popup_18141fa8bcc04f249c9cc6023b3a4e4c)
+            ;
+
+            
+        
+    
+        var marker_7e23af208f784a35bf8b35affa7db769 = L.marker(
+            [28.247004, 112.381017],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_1e15cb87650e465e97a074a8b7ba7f41 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7e23af208f784a35bf8b35affa7db769.setIcon(icon_1e15cb87650e465e97a074a8b7ba7f41);
+            
+    
+            var popup_2fc5fb2186dc48988df4f7f66473c6a0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e5f71ef70d7240418bdb62b84a62df26 = $(`<div id="html_e5f71ef70d7240418bdb62b84a62df26" style="width: 100.0%; height: 100.0%;">宁乡市煤炭坝镇卫生院</div>`)[0];
+                popup_2fc5fb2186dc48988df4f7f66473c6a0.setContent(html_e5f71ef70d7240418bdb62b84a62df26);
+            
+
+            marker_7e23af208f784a35bf8b35affa7db769.bindPopup(popup_2fc5fb2186dc48988df4f7f66473c6a0)
+            ;
+
+            
+        
+    
+        var marker_9ce59b8efc564864bf2e3395015b8d64 = L.marker(
+            [28.149947, 112.467559],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_0200b2a447684a758ea604ebdccecaf4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9ce59b8efc564864bf2e3395015b8d64.setIcon(icon_0200b2a447684a758ea604ebdccecaf4);
+            
+    
+            var popup_bd660571bb004400b992619a4b61a620 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_49b9d0d926b9402b85bdd0e7eab19f95 = $(`<div id="html_49b9d0d926b9402b85bdd0e7eab19f95" style="width: 100.0%; height: 100.0%;">坝塘镇坝塘社区卫生室</div>`)[0];
+                popup_bd660571bb004400b992619a4b61a620.setContent(html_49b9d0d926b9402b85bdd0e7eab19f95);
+            
+
+            marker_9ce59b8efc564864bf2e3395015b8d64.bindPopup(popup_bd660571bb004400b992619a4b61a620)
+            ;
+
+            
+        
+    
+        var marker_c39c9f6e0adf4414a9d1171654754442 = L.marker(
+            [28.180045, 112.473636],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_c822a277e20b476eadc72e20873a630b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c39c9f6e0adf4414a9d1171654754442.setIcon(icon_c822a277e20b476eadc72e20873a630b);
+            
+    
+            var popup_1f3cbf01087a40ebb6b35952d2784f31 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cf0992da56dc4d07b785a4c9a78b8d96 = $(`<div id="html_cf0992da56dc4d07b785a4c9a78b8d96" style="width: 100.0%; height: 100.0%;">坝塘镇卫生院沩乌医院</div>`)[0];
+                popup_1f3cbf01087a40ebb6b35952d2784f31.setContent(html_cf0992da56dc4d07b785a4c9a78b8d96);
+            
+
+            marker_c39c9f6e0adf4414a9d1171654754442.bindPopup(popup_1f3cbf01087a40ebb6b35952d2784f31)
+            ;
+
+            
+        
+    
+        var marker_b55061612ca64c9eb61d3a124a019268 = L.marker(
+            [28.210882, 112.44638599999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_500a8f5202c24d0bb342b8a8bd4bdde0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b55061612ca64c9eb61d3a124a019268.setIcon(icon_500a8f5202c24d0bb342b8a8bd4bdde0);
+            
+    
+            var popup_f855213381c445398cc18335d891d8b0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_779e1c7892a24a7e83202993c08371ae = $(`<div id="html_779e1c7892a24a7e83202993c08371ae" style="width: 100.0%; height: 100.0%;">宁乡市回龙铺镇卫生院</div>`)[0];
+                popup_f855213381c445398cc18335d891d8b0.setContent(html_779e1c7892a24a7e83202993c08371ae);
+            
+
+            marker_b55061612ca64c9eb61d3a124a019268.bindPopup(popup_f855213381c445398cc18335d891d8b0)
+            ;
+
+            
+        
+    
+        var marker_33b247abc4e1498a90393773cf9561e0 = L.marker(
+            [28.230334000000003, 113.00085299999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_93e4b7c6e47d4748aa350a4a059a3817 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_33b247abc4e1498a90393773cf9561e0.setIcon(icon_93e4b7c6e47d4748aa350a4a059a3817);
+            
+    
+            var popup_b411fc58cf5c43b08f12ad39c2a2f672 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0b0ee618853243c089252f086464dcb2 = $(`<div id="html_0b0ee618853243c089252f086464dcb2" style="width: 100.0%; height: 100.0%;">长沙优伢仕口腔医院</div>`)[0];
+                popup_b411fc58cf5c43b08f12ad39c2a2f672.setContent(html_0b0ee618853243c089252f086464dcb2);
+            
+
+            marker_33b247abc4e1498a90393773cf9561e0.bindPopup(popup_b411fc58cf5c43b08f12ad39c2a2f672)
+            ;
+
+            
+        
+    
+        var marker_a5840e3dfdf74c19b0dc2578c453f019 = L.marker(
+            [28.187772000000002, 112.97437599999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_cb352cb29fc7437fb7d775985ef4cac6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a5840e3dfdf74c19b0dc2578c453f019.setIcon(icon_cb352cb29fc7437fb7d775985ef4cac6);
+            
+    
+            var popup_c8096839105f4948a80d7be70fe4c5f6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4bed951aa851483d85aa25cb3f3c24c3 = $(`<div id="html_4bed951aa851483d85aa25cb3f3c24c3" style="width: 100.0%; height: 100.0%;">拜博口腔</div>`)[0];
+                popup_c8096839105f4948a80d7be70fe4c5f6.setContent(html_4bed951aa851483d85aa25cb3f3c24c3);
+            
+
+            marker_a5840e3dfdf74c19b0dc2578c453f019.bindPopup(popup_c8096839105f4948a80d7be70fe4c5f6)
+            ;
+
+            
+        
+    
+        var marker_a9098da991704a40a644b69661707572 = L.marker(
+            [28.18467, 113.003829],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_cd0d069617f3445aa36a01621e536007 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a9098da991704a40a644b69661707572.setIcon(icon_cd0d069617f3445aa36a01621e536007);
+            
+    
+            var popup_0d9c41c27435496db75e8b1866e9c4e3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_44c625d78fe347e88d48621a7e4d9c92 = $(`<div id="html_44c625d78fe347e88d48621a7e4d9c92" style="width: 100.0%; height: 100.0%;">长沙美奥口腔医院（人民路院）</div>`)[0];
+                popup_0d9c41c27435496db75e8b1866e9c4e3.setContent(html_44c625d78fe347e88d48621a7e4d9c92);
+            
+
+            marker_a9098da991704a40a644b69661707572.bindPopup(popup_0d9c41c27435496db75e8b1866e9c4e3)
+            ;
+
+            
+        
+    
+        var marker_8aa74076987c49a19d44122354114476 = L.marker(
+            [28.211170000000003, 112.925395],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_20a0144a9ec94183adfc188d62cd668f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8aa74076987c49a19d44122354114476.setIcon(icon_20a0144a9ec94183adfc188d62cd668f);
+            
+    
+            var popup_06e9d6708ae44d90bc105e669ed33f0e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_de61f63654df40e1b14655ba40ee2ab5 = $(`<div id="html_de61f63654df40e1b14655ba40ee2ab5" style="width: 100.0%; height: 100.0%;">长沙美奥口腔医院(河西院)</div>`)[0];
+                popup_06e9d6708ae44d90bc105e669ed33f0e.setContent(html_de61f63654df40e1b14655ba40ee2ab5);
+            
+
+            marker_8aa74076987c49a19d44122354114476.bindPopup(popup_06e9d6708ae44d90bc105e669ed33f0e)
+            ;
+
+            
+        
+    
+        var marker_3b6541915636436fabcd7875b9d3ce9b = L.marker(
+            [28.243546000000002, 113.074771],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_a363ca17d7e846dba142beadee4e5906 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3b6541915636436fabcd7875b9d3ce9b.setIcon(icon_a363ca17d7e846dba142beadee4e5906);
+            
+    
+            var popup_a3a17c1325194c9cb00c646ba38f8184 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_76b0fb42b7194041a614fcb9b9b1eb06 = $(`<div id="html_76b0fb42b7194041a614fcb9b9b1eb06" style="width: 100.0%; height: 100.0%;">周医生牙科</div>`)[0];
+                popup_a3a17c1325194c9cb00c646ba38f8184.setContent(html_76b0fb42b7194041a614fcb9b9b1eb06);
+            
+
+            marker_3b6541915636436fabcd7875b9d3ce9b.bindPopup(popup_a3a17c1325194c9cb00c646ba38f8184)
+            ;
+
+            
+        
+    
+        var marker_4ddf882a9f044522bc91faf6d5692065 = L.marker(
+            [28.244871, 112.538305],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_dc6099acf17349499fb3279f98cd6cb2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ddf882a9f044522bc91faf6d5692065.setIcon(icon_dc6099acf17349499fb3279f98cd6cb2);
+            
+    
+            var popup_baa60fe3386444efa37fab9235d03862 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3775eb3308004315a3e45f35d66a3a30 = $(`<div id="html_3775eb3308004315a3e45f35d66a3a30" style="width: 100.0%; height: 100.0%;">德皓口腔连锁宁乡旗舰店</div>`)[0];
+                popup_baa60fe3386444efa37fab9235d03862.setContent(html_3775eb3308004315a3e45f35d66a3a30);
+            
+
+            marker_4ddf882a9f044522bc91faf6d5692065.bindPopup(popup_baa60fe3386444efa37fab9235d03862)
+            ;
+
+            
+        
+    
+        var marker_4e7f687832a34d748cb2e425502d6459 = L.marker(
+            [28.252247, 112.550895],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+
+                var icon_18483eec21324f69813351a6a6bb997c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4e7f687832a34d748cb2e425502d6459.setIcon(icon_18483eec21324f69813351a6a6bb997c);
+            
+    
+            var popup_7109c1965a3c4672989bdf4e5bf05c0c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6af9ea8c56704660a289ce0fbdcfab23 = $(`<div id="html_6af9ea8c56704660a289ce0fbdcfab23" style="width: 100.0%; height: 100.0%;">范凯口腔科诊所</div>`)[0];
+                popup_7109c1965a3c4672989bdf4e5bf05c0c.setContent(html_6af9ea8c56704660a289ce0fbdcfab23);
+            
+
+            marker_4e7f687832a34d748cb2e425502d6459.bindPopup(popup_7109c1965a3c4672989bdf4e5bf05c0c)
+            ;
+
+            
+        
+    
+        var marker_553893f43b524e718153b0d015b5ed83 = L.marker(
+            [28.163025, 112.943044],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_14131a6b56a9468e81fa9d4922fae9ea);
+        
+    
+            var popup_d321a058353044f29ca00ec8b090f307 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2a5aae5296f7499bb7f16211ad6c66ce = $(`<div id="html_2a5aae5296f7499bb7f16211ad6c66ce" style="width: 100.0%; height: 100.0%;">天马医院</div>`)[0];
+                popup_d321a058353044f29ca00ec8b090f307.setContent(html_2a5aae5296f7499bb7f16211ad6c66ce);
+            
+
+            marker_553893f43b524e718153b0d015b5ed83.bindPopup(popup_d321a058353044f29ca00ec8b090f307)
+            ;
+
+            
+        
+</script>
